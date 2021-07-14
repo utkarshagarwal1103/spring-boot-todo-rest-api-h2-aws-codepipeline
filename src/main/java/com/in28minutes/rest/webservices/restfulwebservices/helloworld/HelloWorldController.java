@@ -10,7 +10,9 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
-		return "Hello World";
+		return "Hello!!! Welcome to world of <h3> CI/CD on AWS </h3>. I am deployed by the pipeline created at"
+				+ "<a href=\\\"https://github.com/utkarshagarwal1103/spring-boot-todo-rest-api-h2-aws-codepipeline\"><h3>utkarshagarwal1103"
+				+ "/spring-boot-todo-rest-api-h2-aws-codepipeline</h3></a>";
 	}
 
 	@GetMapping(path = "/hello-world-bean")
